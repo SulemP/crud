@@ -1,3 +1,17 @@
-.registros{
-    color: var(--color-ter);
+.tabla{
+    margin-left: 8%;
+}
+
+.encabezado{
+    color: var(--color-sec);
+}
+
+.editar{
+    background-color: var(--color-sex);
+    width: 60%;
+}
+
+.eliminar{
+    background-color: var(--color-quin);
+    width: 50%;
 }

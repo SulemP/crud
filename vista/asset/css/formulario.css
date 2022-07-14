@@ -10,14 +10,12 @@
     margin-bottom: 3rem;
 }
 
-#form {
-/* Temp */
+/* #form {
     padding: 1rem;
     background-color: #fff;
     border: 1px solid var(--color-prim);
     border-radius: 4px;
-    /* End Temp */
-}
+} */
 
 .form-row {
     /* margin-bottom: 1rem; */
@@ -32,7 +30,7 @@
     width: 100%;
     padding: 3px;
     color: var(--color-prim);
-    border: 1px solid var(--color-prim);
+    border: 2px solid var(--color-prim);
     border-radius: 4px;
     transition: all 0.5s ease-in-out;
     outline: 0;
@@ -54,7 +52,7 @@
 }
 
 .form-row input:focus, form .form-row input:valid {
-    border: 1px solid var(--color-sec);
+    border: 2px solid var(--color-sec);
 }
 
 .form-row input:focus + label:after, form .form-row input:valid + label:after {
@@ -67,14 +65,32 @@
     font-size: 16px;
     border: none;
     display: block;
-    width: 30%;
+    width: 40%;
     height: 30px;
-    margin: 10px auto;
+    margin: 0.625rem auto;
     color: black;
     background: -webkit-linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
     background: linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
 }
 
 .formulario__boton:hover{
-    background: var(--color-sec);
+    background: -webkit-linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
+    background: linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
+}
+
+.guardar{
+    font-size: 16px;
+    border: none;
+    display: block;
+    width: 40%;
+    height: 30px;
+    margin: 0.625rem auto;
+    color: black;
+    background: -webkit-linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
+    background: linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
+}
+
+.guardar:hover{
+    background: -webkit-linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
+    background: linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
 }

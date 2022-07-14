@@ -1,6 +1,20 @@
 :root{
     --color-prim: rgb(212, 7, 212); 
-    --color-sec: rgb(31, 245, 31);  
+    --color-sec: rgb(31, 202, 245);  
     --color-ter: purple; 
+    --color-cua: rgb(27, 114, 185); 
+    --color-quin: rgb(241, 100, 124); 
+    --color-sex: rgb(245, 245, 49); 
+}
+
+.titulo{
+    color: var(--color-ter);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button{
+    border-radius: .5rem;
+    border: none;
 }
 
