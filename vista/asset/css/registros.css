@@ -1,5 +1,9 @@
 .tabla{
-    margin-left: 8%;
+    margin-left: 3%;
+}
+
+.table{
+    text-align: center;
 }
 
 .encabezado{
@@ -14,4 +18,65 @@
 .eliminar{
     background-color: var(--color-quin);
     width: 50%;
+}
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+    .editar{
+        width: 70%;
+    }
+    
+    .eliminar{
+        width: 60%;
+    }
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+    .tabla {
+        margin-left: 1%;
+    }
+
+    .editar{
+        width: 100%;
+    }
+
+    .eliminar{
+        width: 75%;
+    }
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    .tabla{
+        margin-left: 0%;
+    }
+
+    .editar{
+        width: 120%;
+    }
+
+    .eliminar{
+        width: 95%;
+    }
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    .tabla{
+        margin-left: -17%;
+    }
+
+    .editar{
+        width: 100%;
+    }
+
+    .eliminar{
+        width: 100%;
+    }
 }

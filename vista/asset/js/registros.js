@@ -28,7 +28,7 @@ const mostrarRegistros = () => {
     registrosLocales.forEach((registroLocal) => {
         const fila = `
             <tr>
-                <td>#</td>
+                <td class="esconder-xs">#</td>
                 <td>${registroLocal.nombre}</td>
                 <td>${registroLocal.apellido}</td>
                 <td>${registroLocal.edad}</td>

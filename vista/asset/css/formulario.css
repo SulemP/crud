@@ -61,19 +61,19 @@
     background-color: white;
 }
 
-.formulario__boton{
+.registrar{
     font-size: 16px;
     border: none;
     display: block;
     width: 40%;
-    height: 30px;
+    height: 2.125rem;
     margin: 0.625rem auto;
     color: black;
     background: -webkit-linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
     background: linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
 }
 
-.formulario__boton:hover{
+.registrar:hover{
     background: -webkit-linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
     background: linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
 }
@@ -83,7 +83,7 @@
     border: none;
     display: block;
     width: 40%;
-    height: 30px;
+    height: 2.125rem;
     margin: 0.625rem auto;
     color: black;
     background: -webkit-linear-gradient(to left, var(--color-cua), var(--color-sec), var(--color-cua));
@@ -93,4 +93,53 @@
 .guardar:hover{
     background: -webkit-linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
     background: linear-gradient(to left, var(--color-ter), var(--color-prim), var(--color-ter));
+}
+
+/*Son medias query y sirven para hacer modificaciones en las páginas web, dependiendo de la resolución en la que estemos*/
+/*Medida XL*/
+@media (min-width: 1200px) {
+}
+
+/*TELÉFONO CELULAR LG*/
+@media (max-width: 1199px) and (min-width: 992px){
+    .registrar{
+        width: 50%;
+    }
+
+    .guardar{
+        width: 50%;
+    }
+}
+
+/*TELÉFONO CELULAR MD*/
+@media (max-width: 991px) and (min-width: 768px){
+    .registrar{
+        width: 60%;
+    }
+
+    .guardar{
+        width: 60%;
+    }
+}
+
+/*TELÉFONO CELULAR SM*/
+@media(max-width: 767px) and (min-width: 576px){
+    .registrar{
+        width: 80%;
+    }
+
+    .guardar{
+        width: 80%;
+    }
+}
+
+/*TELÉFONO CELULAR XS*/
+@media (max-width: 575px){
+    .registrar{
+        width: 100%;
+    }
+
+    .guardar{
+        width: 100%;
+    }
 }
